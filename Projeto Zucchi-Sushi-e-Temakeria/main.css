@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-page {
+  background: url(./Imagens/pattern_waves.png), url(./Imagens/background.png);
+  background-repeat: repeat-x, no-repeat;
+  background-size: 100px, cover;
+}
+
+.intro-page {
+  max-width: 1920px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-page a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Cinzel", serif;
+  font-size: 60px;
+  text-shadow: 5px 2px 2px rgba(254, 195, 0, 0.568);
+}
+
+.logo {
+  max-width: 600px;
+  width: 50%;
+  margin: 50px 80px; /* top right bottom left */
+}
+
+/* ajustando o tamanho da imagem do restaurante */
+.img-restaurant {
+  max-width: 800px;
+  width: 600px;
+  margin-right: 10px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+section {
+  padding: 80px 0 80px 0;
+}
+
+section#about {
+  text-align: justify;
+}
+
+section#about h1 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+section#contact {
+  background-color: rgba(38, 48, 61, 0.2);
+  text-align: right;
+}
+
+section#contact .container {
+    display: flex;
+    align-items: end;
+}
+
+section#contact h3 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* estilizando formulario */
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 600px;
+  margin: 0 8px 8px 0;
+  padding: 8px;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+input:focus,
+textarea:focus {
+  outline-width: 2px;
+  outline-color: #fec300;
+  outline-style: outset;
+  background-color: #0000003f;
+}
+
+form button {
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: #000000;
+  background-color: #fec300;
+}
+
+footer {
+  height: 30px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fec300;
+}
+
+footer p {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  text-align: right;
+}
