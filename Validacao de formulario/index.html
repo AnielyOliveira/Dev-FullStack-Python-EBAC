@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-validar">
+        <h1>Formulário de validação</h1>
+        <hr>
+        <form id="form-validar"> <!-- ID Utilizado apenas para o javascript -->
+          <input type="number" id="campoA" placeholder="Insira o primeiro número" required />
+          <input type="number" id="campoB" placeholder="Insira o segundo número" required />
+          <button type="submit" id="btn-enviar">Enviar</button>
+          <hr>
+          <p id="message"></p>
+        </form>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
