@@ -15,7 +15,7 @@ function adicionarContato() {
   const inputNumero = document.getElementById("numero-contato");
 
  if (total.includes(inputNumero.value)) {
-      alert(`O Numero: ${inputTel.value} já existe!`);
+      alert(`O Numero: ${inputNumero.value} já existe!`);
   } else {
 
   total.push(Number(inputNome.value));
