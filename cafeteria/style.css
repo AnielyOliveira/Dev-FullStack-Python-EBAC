@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #362517;
+    color: #fff;
+    padding: 16px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ajustando a img do header para cancelar o space-between */
+header > .container img {
+    width: 50px;
+    position: absolute;
+}
+
+/* ajustando o titulo da pagina para se adequar a logo */
+header > .container h1 {
+    margin-left: 60px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    color: #2c1c0e;
+}
+
+/* barra de navegação */
+nav li {
+    display: inline;
+    list-style: none;
+    font-size: 1.2em;
+    margin-right: 18px;
+}
+
+nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #b39e8c;
+    font-size: 1.1em;
+}
+
+/* Apresentação da loja */
+#sobre-a-loja {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+#sobre-a-loja img {
+    width: 35%;
+    margin-right: 24px;
+}
+
+/* linha dos h2  */
+hr {
+    margin: 15px 0 50px 0;
+    height: 3px;
+    border: none;
+    background-color: #362517;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 24.5%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+
+.produto img {
+    width: 100%;
+}
+
+.produto p {
+    margin: 10px 0;
+}
+
+.produto a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* button de acionar produto  */
+.produto button {
+    padding: 8px;
+    border: none;
+    background-color: #362517;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Formulario */
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+    margin-bottom: 30px;
+}
+
+form button {
+    width: 100px;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    background-color: #362517;
+    color: #fff;
+}
+
+form button:hover {
+    background-color: #694d36;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #362517;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container-flex {
+    display: flex;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer img {
+    width: 50%;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* media para celulares */
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 90%;
+    }
+
+    header > .container h1 {
+        font-size: 1em;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    #sobre-a-loja {
+        display: block;
+    }
+
+    #sobre-a-loja img {
+        width: 100%;
+    }
+
+    hr {
+        margin: 15px 0 30px 0;
+    }
+
+    .produtos {
+        display: block;
+    }
+
+    .produtos .produto {
+        margin-bottom: 36px;
+    }
+
+    footer div {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer p {
+        margin-bottom: 15px;
+    }
+}
+
+/* media para tablets */
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+    #sobre-a-loja {
+        display: block;
+    }
+
+    #sobre-a-loja img {
+        width: 100%;
+    }
+
+    hr {
+        margin: 15px 0 30px 0;
+    }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+}
