@@ -25,6 +25,10 @@ body span {
     background-color: var(--cor-azul-escuro);
 }
 
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
 .navbar img {
     width: 200px;
 }
