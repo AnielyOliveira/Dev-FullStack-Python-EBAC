@@ -1,8 +1,8 @@
 # GenZ - Landing Page
-
-Bem-vindo ao projeto da landing page da GenZ, desenvolvido como parte do curso de Desenvolvimento Full Stack na EBAC. Este projeto é uma aplicação prática dos conhecimentos adquiridos sobre o framework Bootstrap, aplicados na construção de uma landing page para uma empresa fictícia especializada em impressão 3D para aplicações médicas.
+<img src="https://github.com/user-attachments/assets/8d7c3227-9a88-4078-a56b-371711023517" width="500" alt="Imagem do site GenZ" />
 
 ## Descrição do Projeto
+Bem-vindo ao projeto da landing page da GenZ, desenvolvido como parte do curso de Desenvolvimento Full Stack na EBAC. Este projeto é uma aplicação prática dos conhecimentos adquiridos sobre o framework Bootstrap, aplicados na construção de uma landing page para uma empresa fictícia especializada em impressão 3D para aplicações médicas.
 
 O projeto consiste na criação de uma landing page responsiva para a empresa GenZ, utilizando Bootstrap para garantir uma interface moderna e funcional. A página inclui seções para informações sobre a empresa, serviços oferecidos, produtos e um formulário de contato.
 
